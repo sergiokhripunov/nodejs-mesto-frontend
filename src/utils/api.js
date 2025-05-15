@@ -101,7 +101,7 @@ class Api {
     }
   
     register(email, password) {
-      return fetch(`${this._address}/signup`, {
+      return fetch(`${this._address}/users/signup`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -112,7 +112,7 @@ class Api {
     }
   
     login(email, password) {
-      return fetch(`${this._address}/signin`, {
+      return fetch(`${this._address}/users/signin`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
