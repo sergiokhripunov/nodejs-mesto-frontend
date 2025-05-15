@@ -1,0 +1,25 @@
+# Logs
+logs
+*.log
+*audit.json
+npm-debug.log*
+
+# Dependency directory
+node_modules
+build
+dist
+
+# Env parameters
+.env
+.env.deploy
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.DS_Store
+.idea
+.vscode
+
+# Typescript build
+dist
